@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude mcp list)",
+      "Bash(claude mcp get *)",
+      "Bash(uv --version)",
+      "Bash(uv tree)",
+      "Bash(uv tree *)",
+      "Bash(uv pip list)",
+      "Bash(uv pip list *)",
+      "Bash(uv pip show *)",
+      "Bash(uv lock --check)",
+      "Bash(uv run pytest)",
+      "Bash(uv run pytest *)",
+      "mcp__ide__getDiagnostics"
+    ]
+  }
+}
